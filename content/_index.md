@@ -195,7 +195,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Please drop me a note if you have any questions regarding my work or are interested to know more about it.
+        Please drop me a note if you have any questions regarding my work or are interested in knowing more about it.
       # Contact (add or remove contact options as necessary)
       # email: test@example.org
       # phone: 888 888 88 88
@@ -229,11 +229,9 @@ sections:
       # Email form provider
       form:
         provider: netlify
-        formspree:
-          id:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: true
     design:
       columns: '2'
 ---
