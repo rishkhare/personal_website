@@ -1,7 +1,7 @@
 ---
 title: Rishabh Khare
 role: Senior Scientist
-avatar_filename: img_2742.jpg
+avatar_filename: img_2742-custom-.jpg
 bio: My research interests include machine learning, optimization and condensed
   matter physics.
 interests:
