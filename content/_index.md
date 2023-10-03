@@ -1,8 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
-title:
-date: 2022-10-24
-type: landing
 
 sections:
   
@@ -12,22 +8,7 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+
   - block: experience
     content:
       title: Experience
@@ -40,12 +21,12 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Senior Scientist
+          company: MemComputing
+          company_url: 'https://www.memcpu.com'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: San Diego, California
+          date_start: '2022-09-26'
           date_end: ''
           description: |2-
               Responsibilities include:
@@ -53,13 +34,13 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Research Assistant
+          company: Purdue University
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          location: West Lafayette, Indiana
+          date_start: '2016-08-01'
+          date_end: '2022-07-31'
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
