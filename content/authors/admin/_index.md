@@ -41,7 +41,7 @@ education:
       year: 2022
     - course: BS-MS Dual Degree
       institution: Indian Institute of Science Education and Research Kolkata
-      year: 2011
+      year: 2016
 superuser: true
 status:
   icon: ☕️
