@@ -32,7 +32,7 @@ featured: false
 
 # links:
 # - name: ""
-  url: "https://iopscience.iop.org/article/10.1088/1361-6455/abc499/meta"
+url: "https://iopscience.iop.org/article/10.1088/1361-6455/abc499/meta"
 url_pdf: https://arxiv.org/pdf/2010.15548.pdf
 url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: ''
