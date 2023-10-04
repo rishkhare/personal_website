@@ -27,7 +27,9 @@ abstract: Motivated by the recent discovery of ergodicity breaking in geometrica
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- localization, frustrated system, exact diagonalization, many-body interaction
+- localization 
+- frustrated system 
+- exact diagonalization
 featured: false
 
 # links:
