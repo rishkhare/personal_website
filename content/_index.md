@@ -28,16 +28,14 @@ sections:
         - title: Senior Scientist
           company: MemComputing
           company_url: 'https://www.memcpu.com'
-          company_logo: org-gc
+          company_logo: memcpu-logo
           location: San Diego, California
           date_start: '2022-09-26'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
+              
         - title: Research Assistant
           company: Purdue University
           company_url: ''
