@@ -58,7 +58,7 @@ url_video: 'https://www.youtube.com/watch?v=9gNDh28CKdk'
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: ''
-  focal_point: ''
+  focal_point: 'Center'
   preview_only: false
 
 # Associated Projects (optional).
