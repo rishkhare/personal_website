@@ -45,26 +45,7 @@ url_pdf: 'https://arxiv.org/pdf/2010.15548.pdf'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'FIG. 3 form the article. (a1)-(a2) Contour plots of the average return probability, P(t), for the 12−site ladder. For (a1), we show the average
-of P(t) from t = 0 to t = 1000/J as a function of V and J
-0
-. In (a2), we show the average of P(t) from t = 0 to t = 1000/V
-as a function of J and J
-0
-. It is clear from these plots that our model exhibits localized dynamics for a wide parameter
-regime. (b) Dependence of the localization lifetime, t
-∗
-on the system size, L, when J
-0
-/V = −0.4 and J/V = −0.68. We
-have defined t
-∗
-as the time, when P(t) drops below 0.05. The lifetime appears to increase exponentially with the system
-size. (c) The overlap of the numerically obtained eigenstate |ψloci with the analytic eigenstate |φloci for the 10−site ladder,
-when J/V = J
-0
-/V . This overlap, F (as defined in Eq. 7) is large (≥ 0.9) for a wide parameter regime, indicating that the
-state is localized.'
+  caption: ''
   focal_point: "Center"
   preview_only: false
 
