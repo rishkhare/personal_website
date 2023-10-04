@@ -33,17 +33,17 @@ sections:
           date_start: '2022-09-26'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              
 
               
         - title: Research Assistant
           company: Purdue University
           company_url: ''
-          company_logo: org-x
+          company_logo: purdue-logo
           location: West Lafayette, Indiana
           date_start: '2016-08-01'
           date_end: '2022-07-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: 
     design:
       columns: '2'
   # - block: accomplishments
