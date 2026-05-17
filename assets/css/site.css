@@ -131,6 +131,15 @@ main {
   margin-bottom: 18px;
 }
 
+.split strong span {
+  display: block;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
 .split p,
 .item p,
 .post p,
