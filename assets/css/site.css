@@ -82,7 +82,7 @@ a {
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(48px, 8vw, 92px);
+  font-size: clamp(42px, 7vw, 76px);
   line-height: 0.96;
   font-weight: 760;
   letter-spacing: 0;
@@ -118,13 +118,13 @@ a {
   grid-template-columns: 0.8fr 1.2fr;
   gap: 24px;
   color: var(--muted);
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.58;
 }
 
 .split strong {
   color: var(--ink);
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.25;
 }
 
@@ -153,13 +153,13 @@ a {
 
 .item h3 {
   margin: 0 0 8px;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.25;
 }
 
 .item p {
   max-width: 700px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.56;
 }
 
@@ -193,7 +193,7 @@ a {
 .post h2,
 .post h3 {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.22;
 }
 
@@ -207,7 +207,7 @@ a {
 .article-header h1 {
   max-width: 760px;
   margin: 0;
-  font-size: clamp(42px, 6vw, 76px);
+  font-size: clamp(36px, 5vw, 60px);
   line-height: 0.98;
   font-weight: 760;
 }
@@ -228,14 +228,14 @@ a {
 .prose {
   max-width: 720px;
   color: #2c2c28;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 .prose h2 {
   margin: 42px 0 6px;
   color: var(--ink);
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.2;
 }
 
@@ -251,7 +251,7 @@ a {
 .prose h3 {
   margin: 30px 0 10px;
   color: var(--ink);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .prose p,
