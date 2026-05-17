@@ -1,11 +1,6 @@
 {{ define "main" }}
   <main>
     <article class="article">
-      <header class="article-header">
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
-      </header>
-
       <div class="contact-grid single">
         <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks/">
           <input type="hidden" name="form-name" value="contact">

@@ -1,12 +1,12 @@
 {{ define "main" }}
   <main>
     <article class="article">
-      <header class="article-header">
-        <h1>{{ .Title }}</h1>
-        {{ if eq .Section "blog" }}
+      {{ if eq .Section "blog" }}
+        <header class="article-header">
+          <h1>{{ .Title }}</h1>
           <p>{{ .Date.Format "January 2, 2006" }}</p>
-        {{ end }}
-      </header>
+        </header>
+      {{ end }}
       <div class="prose">
         {{ .Content }}
       </div>
