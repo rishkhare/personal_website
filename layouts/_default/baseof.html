@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Locale | default "en" }}">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="page-shell">
+      {{ partial "header.html" . }}
+      {{ block "main" . }}{{ end }}
+      <footer class="site-footer">
+        <span>© {{ now.Format "2006" }} Rishabh Khare</span>
+        <span><a href="https://www.linkedin.com/in/rishabhkhare/">LinkedIn</a> · <a href="https://twitter.com/rish_khare">Twitter</a></span>
+      </footer>
+    </div>
+  </body>
+</html>

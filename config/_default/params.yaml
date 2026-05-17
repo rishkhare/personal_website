@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'Rishabh Khare'
+    description: 'Rishabh Khare is a data scientist and AI generalist based in the Bay Area.'
+    twitter: 'rish_khare'
   analytics:
     google_analytics: ''
     baidu_tongji: ''

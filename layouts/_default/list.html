@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <main>
+    <section class="page-heading">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+    </section>
+
+    {{ if eq .Section "blog" }}
+      {{ $pages := .Pages.ByDate.Reverse }}
+      {{ if $pages }}
+        <section class="section">
+          <div class="posts">
+            {{ range $pages }}
+              <a class="post" href="{{ .RelPermalink }}">
+                <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                <span>
+                  <h2>{{ .Title }}</h2>
+                  {{ with .Summary }}<p>{{ . | plainify }}</p>{{ end }}
+                </span>
+              </a>
+            {{ end }}
+          </div>
+        </section>
+      {{ else }}
+        <section class="section">
+          <p class="quiet">No posts yet.</p>
+        </section>
+      {{ end }}
+    {{ else }}
+      <section class="section prose">
+        {{ .Content }}
+      </section>
+    {{ end }}
+  </main>
+{{ end }}

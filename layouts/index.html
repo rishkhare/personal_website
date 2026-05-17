@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <main>
+    <section class="hero simple">
+      <h1>Rishabh Khare</h1>
+      <p class="hero-meta">Data scientist. AI generalist. Based in the Bay Area.</p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Now</h2>
+      <div class="split">
+        <strong>Data Scientist at Albertsons Companies</strong>
+        <p>Applied AI and data science. <a href="{{ "/about/" | relURL }}">More about me</a>.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Blog</h2>
+      {{ $posts := first 3 (where .Site.RegularPages "Section" "blog") }}
+      {{ if $posts }}
+        <div class="posts">
+          {{ range $posts }}
+            <a class="post" href="{{ .RelPermalink }}">
+              <span class="date">{{ .Date.Format "Jan 2006" }}</span>
+              <span>
+                <h3>{{ .Title }}</h3>
+                {{ with .Summary }}<p>{{ . | plainify }}</p>{{ end }}
+              </span>
+            </a>
+          {{ end }}
+        </div>
+      {{ else }}
+        <p class="quiet">No posts yet.</p>
+      {{ end }}
+    </section>
+
+  </main>
+{{ end }}

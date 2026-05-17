@@ -1,0 +1,10 @@
+<header class="site-header">
+  <nav class="site-nav" aria-label="Main navigation">
+    {{ $current := .RelPermalink }}
+    <a class="{{ if eq $current "/" }}active{{ end }}" href="{{ "/" | relURL }}">Home</a>
+    {{ range .Site.Menus.main }}
+      {{ $isActive := eq $current .URL }}
+      <a class="{{ if $isActive }}active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</header>

@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <main>
+    <article class="article">
+      <header class="article-header">
+        <h1>{{ .Title }}</h1>
+        {{ if eq .Section "blog" }}
+          <p>{{ .Date.Format "January 2, 2006" }}</p>
+        {{ end }}
+      </header>
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </article>
+  </main>
+{{ end }}
