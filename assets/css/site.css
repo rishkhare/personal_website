@@ -30,7 +30,7 @@ a {
 }
 
 .page-shell {
-  max-width: 980px;
+  max-width: 900px;
   min-height: 100vh;
   margin: 0 auto;
   background: var(--paper);
@@ -69,15 +69,12 @@ a {
 }
 
 .hero {
-  padding: 72px 42px 54px;
+  padding: 66px 42px 50px;
   border-top: 1px solid transparent;
 }
 
 .hero.simple {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 28px;
-  align-items: end;
+  display: block;
 }
 
 .hero h1 {
@@ -90,11 +87,11 @@ a {
 
 .hero-meta {
   max-width: 260px;
-  margin: 0;
+  margin: 22px 0 0;
   color: var(--muted);
   font-size: 15px;
   line-height: 1.5;
-  text-align: right;
+  text-align: left;
 }
 
 .section,
@@ -114,18 +111,18 @@ a {
 }
 
 .split {
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 24px;
+  display: block;
   color: var(--muted);
   font-size: 16px;
   line-height: 1.58;
 }
 
 .split strong {
+  display: block;
   color: var(--ink);
   font-size: 19px;
   line-height: 1.25;
+  margin-bottom: 18px;
 }
 
 .split p,
@@ -353,9 +350,8 @@ a {
 }
 
 .site-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 18px;
+  display: grid;
+  gap: 14px;
   padding: 28px 42px;
   border-top: 1px solid var(--line);
   color: var(--muted);
